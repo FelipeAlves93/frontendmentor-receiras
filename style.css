@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebe1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 1440px;
+    padding: 20px;
+    box-shadow: 0 4px;
+    font-size: small;
+    width: 50vw;
+    min-width: 375px;
+}
+
+.receita-topo {
+    text-align: left;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.receita-topo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tempo-preparo {
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin: 30px;
+}
+
+.tempo-preparo span {
+    display: block;
+    list-style-type: circle;
+    padding: 8px;
+}
+
+.tempo-preparo li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+h3 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredientes {
+    padding: 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.ingredientes li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instrucao li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instrucao {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    padding-top: 15px;
+    margin: 20px;
+}
+
+.instrucao ol {
+    padding-left: 20px;
+}
+
+.nutricao {
+    margin: 20px;
+    border-top: 1px solid hsl(30, 18%, 87%);
+    padding-top: 15px;
+}
+
+.nutricao strong{
+    color: hsl(14, 45%, 36%);
+}
+.nutricao ul li{
+    list-style: none;
+    word-spacing: 180px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    display: block;
+    padding: 8px;
+    margin-left: -30px;
+}
+
+.nutricao ul li1{
+    list-style: none;
+    word-spacing: 154px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    display: block;
+    padding: 7px;
+    margin-left: -30px;
+}
